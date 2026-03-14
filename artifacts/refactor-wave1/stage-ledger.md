@@ -5,7 +5,7 @@ Branch: `refactor/bsl-wave1-errors-critical-warnings`
 ## Stages
 - [x] Stage 0 - Branch + Baseline
 - [x] Stage 1 - Documents
-- [ ] Stage 2 - Reports
+- [x] Stage 2 - Reports
 - [ ] Stage 3 - CommonModules
 - [ ] Stage 4 - DataProcessors + InformationRegisters + residuals
 - [ ] Stage 5 - Critical Warning Sweep
@@ -17,5 +17,7 @@ Branch: `refactor/bsl-wave1-errors-critical-warnings`
 
 ## Commits
 - Stage 0: 62ed455
-- Stage 1: pending
+- Stage 1: aa7c64b
+- Stage 2: pending
+
 
