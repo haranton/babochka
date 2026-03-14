@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействуетДо</dataPath>
+			<field>ДействуетДо</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Промокод</dataPath>
+			<field>Промокод</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДействуетС</dataPath>
+			<field>ДействуетС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Идентификатор</dataPath>
+			<field>Идентификатор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерТелефона</dataPath>
+			<field>НомерТелефона</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументДвижения</dataPath>
+			<field>ДокументДвижения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПромокодСкидка</dataPath>
+			<field>ПромокодСкидка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скидка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ОднократныеПромокодыНаСкидку.Промокод КАК Промокод,
+	ОднократныеПромокодыНаСкидку.Идентификатор КАК Идентификатор,
+	ВЫБОР
+		КОГДА ОднократныеПромокодыНаСкидку.Промокод.Персонализирован
+			ТОГДА ОднократныеПромокодыНаСкидку.Партнер
+		ИНАЧЕ "Обезличенный"
+	КОНЕЦ КАК Партнер,
+	ОднократныеПромокодыНаСкидку.НомерТелефона КАК НомерТелефона,
+	ОднократныеПромокодыНаСкидку.Состояние КАК Состояние,
+	ОднократныеПромокодыНаСкидку.ДокументДвижения КАК ДокументДвижения,
+	ОднократныеПромокодыНаСкидку.ДействуетС КАК ДействуетС,
+	ОднократныеПромокодыНаСкидку.ДействуетДо КАК ДействуетДо,
+	ОднократныеПромокодыНаСкидку.Промокод.Скидка КАК ПромокодСкидка
+ПОМЕСТИТЬ ДокументыПоРегистру
+ИЗ
+	РегистрСведений.ОднократныеПромокодыНаСкидку КАК ОднократныеПромокодыНаСкидку
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЧекККМСкидкиНаценки.СкидкаНаценка КАК СкидкаНаценка,
+	СУММА(ЧекККМСкидкиНаценки.Сумма) КАК Сумма,
+	ЧекККМСкидкиНаценки.Ссылка КАК Ссылка
+ПОМЕСТИТЬ ДокументыСПримененнымПромокодом
+ИЗ
+	Документ.ЧекККМ.СкидкиНаценки КАК ЧекККМСкидкиНаценки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ДокументыПоРегистру КАК ДокументыПоРегистру
+		ПО ЧекККМСкидкиНаценки.Ссылка = ДокументыПоРегистру.ДокументДвижения
+ГДЕ
+	ЧекККМСкидкиНаценки.СкидкаНаценка.ЭтоПромокод
+	И ЧекККМСкидкиНаценки.Сумма &lt;&gt; 0
+	И ЧекККМСкидкиНаценки.Ссылка.Статус = &amp;СтатусПробит
+СГРУППИРОВАТЬ ПО
+	ЧекККМСкидкиНаценки.СкидкаНаценка,
+	ЧекККМСкидкиНаценки.Ссылка
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗаказКлиентаСкидкиНаценки.СкидкаНаценка,
+	СУММА(ЗаказКлиентаСкидкиНаценки.Сумма),
+	ЗаказКлиентаСкидкиНаценки.Ссылка
+ИЗ
+	Документ.ЗаказКлиента.СкидкиНаценки КАК ЗаказКлиентаСкидкиНаценки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ДокументыПоРегистру КАК ДокументыПоРегистру
+		ПО ЗаказКлиентаСкидкиНаценки.Ссылка = ДокументыПоРегистру.ДокументДвижения
+ГДЕ
+	ЗаказКлиентаСкидкиНаценки.СкидкаНаценка.ЭтоПромокод
+	И ЗаказКлиентаСкидкиНаценки.Сумма &lt;&gt; 0
+	И ЗаказКлиентаСкидкиНаценки.Ссылка.Проведен
+СГРУППИРОВАТЬ ПО
+	ЗаказКлиентаСкидкиНаценки.СкидкаНаценка,
+	ЗаказКлиентаСкидкиНаценки.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДокументыПоРегистру.Промокод КАК Промокод,
+	ДокументыПоРегистру.Идентификатор КАК Идентификатор,
+	ДокументыПоРегистру.Партнер КАК Партнер,
+	ДокументыПоРегистру.НомерТелефона КАК НомерТелефона,
+	ДокументыПоРегистру.Состояние КАК Состояние,
+	ДокументыПоРегистру.ДокументДвижения КАК ДокументДвижения,
+	ДокументыПоРегистру.ДействуетС КАК ДействуетС,
+	ДокументыПоРегистру.ДействуетДо КАК ДействуетДо,
+	ДокументыПоРегистру.ПромокодСкидка КАК ПромокодСкидка
+ИЗ
+	ДокументыПоРегистру КАК ДокументыПоРегистру
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ДокументыСПримененнымПромокодом КАК ДокументыСПримененнымПромокодом
+		ПО ДокументыПоРегистру.ДокументДвижения = ДокументыСПримененнымПромокодом.Ссылка
+			И ДокументыПоРегистру.Промокод.Скидка = ДокументыСПримененнымПромокодом.СкидкаНаценка</query>
+	</dataSet>
+	<parameter>
+		<name>СтатусПробит</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статус пробит</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыЧековККМ.Пробит</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Промокод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПромокодСкидка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Партнер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерТелефона</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Идентификатор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Состояние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Период действия</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДействуетС</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>с</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДействуетДо</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>по</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДокументДвижения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Партнер</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>9ff7e5e7-c502-4747-94c0-a267d76dddd9</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ПромокодСкидка</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>184bb725-e5fa-4fd5-a888-65eba792f988</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Состояние</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>12675f0a-f8b4-49ce-a5af-0e60b856298c</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Промокод</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Партнер</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НомерТелефона</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДействуетС</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДействуетДо</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по промокодам</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Промокод</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Партнер</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

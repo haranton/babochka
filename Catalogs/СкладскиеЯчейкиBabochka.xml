@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="2479104b-e1d5-4635-b136-fe1874c85d3b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкладскиеЯчейкиBabochka" category="Object">
+				<xr:TypeId>2f738a1c-e895-4b16-95ba-93a24d79a356</xr:TypeId>
+				<xr:ValueId>aee543fb-fe07-4113-a1bd-e87627760cc8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкладскиеЯчейкиBabochka" category="Ref">
+				<xr:TypeId>9d0a1520-c601-41e4-9cfb-2a50ab429ffa</xr:TypeId>
+				<xr:ValueId>4549f881-6583-4a29-b5c0-91831d9c8daa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкладскиеЯчейкиBabochka" category="Selection">
+				<xr:TypeId>687e0266-1ff3-4863-b3ec-2b19c4878aeb</xr:TypeId>
+				<xr:ValueId>e8cee048-fc0e-4785-aff3-36648c0d9b9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкладскиеЯчейкиBabochka" category="List">
+				<xr:TypeId>8f026720-184c-4f22-8982-294f80a791a4</xr:TypeId>
+				<xr:ValueId>518802d3-737a-42ff-b617-eaed70058825</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкладскиеЯчейкиBabochka" category="Manager">
+				<xr:TypeId>e05368c3-2eb9-49bf-aea5-095564b3bfa1</xr:TypeId>
+				<xr:ValueId>7c0fa08b-eb84-42bb-8bc4-a2a41788c2c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкладскиеЯчейкиBabochka</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c7c3eb8a-214a-425a-b94d-9ac5700f9b9e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

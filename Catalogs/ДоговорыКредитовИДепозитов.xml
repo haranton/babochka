@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="a1125301-66d6-4e68-ad7d-8f099727e8eb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДоговорыКредитовИДепозитов" category="Object">
+				<xr:TypeId>bcda5963-cab4-4d51-a886-1632a74abe53</xr:TypeId>
+				<xr:ValueId>1e796157-38bc-446d-913f-d1b7609a20b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДоговорыКредитовИДепозитов" category="Ref">
+				<xr:TypeId>bf9dcef2-87a4-4afc-aa45-99c2ed311f0c</xr:TypeId>
+				<xr:ValueId>c55d65b3-ae26-45ab-8659-ba6175d4be5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДоговорыКредитовИДепозитов" category="Selection">
+				<xr:TypeId>a7f65dd8-8c66-4d56-9fa4-575a1e16e460</xr:TypeId>
+				<xr:ValueId>f1d2c2de-de5c-4f07-8f26-974c8012233a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДоговорыКредитовИДепозитов" category="List">
+				<xr:TypeId>6a153776-f758-48dc-b664-3ea89976ad2e</xr:TypeId>
+				<xr:ValueId>d59d2221-8332-4261-950d-1bfdff65013c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДоговорыКредитовИДепозитов" category="Manager">
+				<xr:TypeId>3905b002-7381-4de7-aee2-6793a0566d64</xr:TypeId>
+				<xr:ValueId>d9df1720-5e29-4578-88cd-7242bd9613b4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоговорыКредитовИДепозитов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>af1d182a-c876-49b9-8194-93c66df4d32b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

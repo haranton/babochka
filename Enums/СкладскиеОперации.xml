@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="21e133fc-00d9-40ad-98c8-07af8737fcc9">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СкладскиеОперации" category="Ref">
+				<xr:TypeId>8a398231-1ea6-4043-b91c-d955cb2c0cba</xr:TypeId>
+				<xr:ValueId>86f6fd6f-7608-4430-8c7d-66c91e74116e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СкладскиеОперации" category="Manager">
+				<xr:TypeId>55d931f2-defd-4a53-816b-232a64b552b5</xr:TypeId>
+				<xr:ValueId>fcc813f3-612c-4f99-8d8c-47a3f26f4bc8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СкладскиеОперации" category="List">
+				<xr:TypeId>c05578b8-6c43-40f0-8b48-28d9acb7c695</xr:TypeId>
+				<xr:ValueId>e28fea27-eaa5-4a88-9a14-29166dcffadd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкладскиеОперации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cd72164b-3f22-4ef5-b8c0-54a842fc0009</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

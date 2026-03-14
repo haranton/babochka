@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="0e2c035b-dacb-4024-8341-c573f420147b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШтрихкодыУпаковокТоваров" category="Object">
+				<xr:TypeId>666acef7-ad96-4206-91b2-24e8d37d5191</xr:TypeId>
+				<xr:ValueId>66a975f0-390b-4097-936e-26f53e867f17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШтрихкодыУпаковокТоваров" category="Ref">
+				<xr:TypeId>556c1d44-98b1-43c1-9607-dcf47f12442d</xr:TypeId>
+				<xr:ValueId>355d6483-42db-4ff8-b178-18662ec4afba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШтрихкодыУпаковокТоваров" category="Selection">
+				<xr:TypeId>aa3eb568-b75d-4ce2-b3fd-12bac7b265f2</xr:TypeId>
+				<xr:ValueId>25fdf6b0-b4d2-4ec4-a98c-d21e8ad60fb5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШтрихкодыУпаковокТоваров" category="List">
+				<xr:TypeId>0ab7bb07-b3ab-4940-bd3e-15b6bd3d6d79</xr:TypeId>
+				<xr:ValueId>0d34b973-0d19-4ffc-bb7b-b3d27d5b0ffc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШтрихкодыУпаковокТоваров" category="Manager">
+				<xr:TypeId>ec960d6b-7332-40e2-b670-ff9422589e98</xr:TypeId>
+				<xr:ValueId>9697d464-a83f-4b21-9338-4e36f93e3d41</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ШтрихкодыУпаковокТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>e35ed3a1-2051-4f4b-8e36-36bb46591b25</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

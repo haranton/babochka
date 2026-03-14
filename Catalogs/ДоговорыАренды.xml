@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f24f8875-15bf-459d-a4d5-d0eb31b45657">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДоговорыАренды" category="Object">
+				<xr:TypeId>bf2013ff-280d-4ef8-9ba0-b0a2ff83245f</xr:TypeId>
+				<xr:ValueId>69d744bf-ff9b-45b8-9bcf-cb91d23eb176</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДоговорыАренды" category="Ref">
+				<xr:TypeId>f36b531b-7142-45fc-9419-48f2bb05dc06</xr:TypeId>
+				<xr:ValueId>ef8a25f7-3117-433f-9dc8-b246af9f51be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДоговорыАренды" category="Selection">
+				<xr:TypeId>29c223e5-daa4-4ec4-8ebb-bf88561f4727</xr:TypeId>
+				<xr:ValueId>43ff9fac-20d1-4f62-8609-d70ae0eaddf6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДоговорыАренды" category="List">
+				<xr:TypeId>c27ad217-30bd-4849-877e-a575fbaed011</xr:TypeId>
+				<xr:ValueId>16da89e1-d1f7-44b9-ae63-8717d76ee7af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДоговорыАренды" category="Manager">
+				<xr:TypeId>6afb6a07-dda5-4e2e-bd7b-019a47871db4</xr:TypeId>
+				<xr:ValueId>eca37488-2ceb-4ffa-aea1-69e6e946e001</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДоговорыАренды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d2c00e8c-c38c-49d6-9b91-2ae735c1ecf6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Button name="ВыбратьТариф" id="34">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<CommandName>Form.Command.ВыбратьТариф</CommandName>
+			<ExtendedTooltip name="ВыбратьТарифРасширеннаяПодсказка" id="35"/>
+		</Button>
+		<Table name="ТЗРезультат" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>ТЗРезультат</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТЗРезультатКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТЗРезультатКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="ТЗРезультатРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТЗРезультатСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТЗРезультат</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗРезультатСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТЗРезультатСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТЗРезультатСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТЗРезультат</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗРезультатСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТЗРезультатСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТЗРезультатУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТЗРезультат</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТЗРезультатУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТЗРезультатУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<CheckBoxField name="ТЗРезультатГалка" id="29">
+					<DataPath>ТЗРезультат.Галка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТЗРезультатГалкаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТЗРезультатГалкаРасширеннаяПодсказка" id="31"/>
+				</CheckBoxField>
+				<InputField name="ТЗРезультатКодТарифа" id="14">
+					<DataPath>ТЗРезультат.tariff_code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЗРезультатКодТарифаКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТЗРезультатКодТарифаРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="ТЗРезультатНаименование" id="17">
+					<DataPath>ТЗРезультат.tariff_name</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЗРезультатНаименованиеКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТЗРезультатНаименованиеРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТЗРезультатtariff_description" id="36">
+					<DataPath>ТЗРезультат.tariff_description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Height>2</Height>
+					<ContextMenu name="ТЗРезультатtariff_descriptionКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="ТЗРезультатtariff_descriptionРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<ColumnGroup name="ВремяДоставки" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время доставки (В рабочих днях)</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время доставки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<ShowInHeader>true</ShowInHeader>
+					<ExtendedTooltip name="ВремяДоставкиРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="ТЗРезультатПериодМин" id="23">
+							<DataPath>ТЗРезультат.period_min</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТЗРезультатПериодМинКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ТЗРезультатПериодМинРасширеннаяПодсказка" id="25"/>
+						</InputField>
+						<InputField name="ТЗРезультатПериодМакс" id="26">
+							<DataPath>ТЗРезультат.period_max</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ТЗРезультатПериодМаксКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ТЗРезультатПериодМаксРасширеннаяПодсказка" id="28"/>
+						</InputField>
+					</ChildItems>
+				</ColumnGroup>
+				<InputField name="ТЗРезультатСуммаДоставки" id="20">
+					<DataPath>ТЗРезультат.delivery_sum</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЗРезультатСуммаДоставкиКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТЗРезультатСуммаДоставкиРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ТЗРезультатТарифВБазе" id="39">
+					<DataPath>ТЗРезультат.ТарифВБазе</DataPath>
+					<Visible>false</Visible>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТЗРезультатТарифВБазеКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ТЗРезультатТарифВБазеРасширеннаяПодсказка" id="41"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ТЗРезультат" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТЗРезультат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="tariff_code" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код тарифа</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="tariff_description" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="delivery_sum" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма доставки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="period_min" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Минимальное время</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="period_max" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Максимальное время</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Галка" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Галка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="tariff_name" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ТарифВБазе" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тариф в базе</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ТарифыСДЭКИМ</v8:Type>
+					</Type>
+				</Column>
+				<Column name="delivery_mode" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Delivery mode</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="URL" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>URL</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Заявка" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заявка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ЗаявкаНаДоставку</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтправлятьНаТестовыйСервер" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправлять на тестовый сервер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ЭтоВозврат" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Это возврат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыбратьТариф" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать тариф</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьТариф</Action>
+		</Command>
+	</Commands>
+</Form>

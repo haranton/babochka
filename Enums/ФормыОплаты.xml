@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="5b8df7b5-cacc-4092-ab7b-24db98f7daa2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФормыОплаты" category="Ref">
+				<xr:TypeId>6995318d-575f-40eb-9ebb-c30389cf3d46</xr:TypeId>
+				<xr:ValueId>614a773c-8306-4e09-a6cd-d5797a36b1a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФормыОплаты" category="Manager">
+				<xr:TypeId>a0bd6fc5-2c94-4b74-9550-0b2fc800ebb6</xr:TypeId>
+				<xr:ValueId>cf343995-001d-4fc9-8fe4-9b1cb91da50f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФормыОплаты" category="List">
+				<xr:TypeId>daff88d2-c96c-4767-85f7-1fa8e73f0914</xr:TypeId>
+				<xr:ValueId>615c9434-dd49-4b47-a1c9-30018615e848</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ФормыОплаты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8cd09e10-4636-4941-882a-e1d11a583f37</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="81a59a08-b6c4-46e7-9137-e0ee76de9f9c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОплатаПодарочнымСертификатом" category="Object">
+				<xr:TypeId>fd64b8e4-a646-4e4d-bd31-3926aa39601c</xr:TypeId>
+				<xr:ValueId>a572f075-4f27-412f-95e2-546028d151d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОплатаПодарочнымСертификатом" category="Ref">
+				<xr:TypeId>f67f5738-10c0-4198-a08e-99c39af712cf</xr:TypeId>
+				<xr:ValueId>e93df5cf-67e7-4aaf-bce8-c63f1c67204f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОплатаПодарочнымСертификатом" category="Selection">
+				<xr:TypeId>750a242f-ffbc-4f0b-91f9-cba7b80c8eda</xr:TypeId>
+				<xr:ValueId>9643e818-529d-4866-b32d-62d8d94ec35a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОплатаПодарочнымСертификатом" category="List">
+				<xr:TypeId>4bce9a5a-81ed-4de3-872a-68067be55aba</xr:TypeId>
+				<xr:ValueId>08a6d04b-5670-410b-900e-341b9729dc44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОплатаПодарочнымСертификатом" category="Manager">
+				<xr:TypeId>eabffe0c-0935-4f17-99cb-8a30bf87e4b2</xr:TypeId>
+				<xr:ValueId>896d3dc4-4a10-4244-8ecc-9b933ed50758</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОплатаПодарочнымСертификатом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7aa1ae6f-32eb-4bf9-91be-bec80776faef</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

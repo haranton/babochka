@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c913c03c-7216-486b-a190-26a42d269aad">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТарифыСДЭКИМ" category="Object">
+				<xr:TypeId>37bdcbac-8825-4cd2-a3c0-54d99afa66b5</xr:TypeId>
+				<xr:ValueId>48961a38-285d-437e-b088-84b1ac4206b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТарифыСДЭКИМ" category="Ref">
+				<xr:TypeId>57b359f8-bea5-449f-ad83-8259e4d9483b</xr:TypeId>
+				<xr:ValueId>04c9a8bb-13d9-4cfe-bd0d-a37de7110164</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТарифыСДЭКИМ" category="Selection">
+				<xr:TypeId>c6361140-c304-44ee-8454-441e014d0ca2</xr:TypeId>
+				<xr:ValueId>7f248f88-d28d-4afd-9367-37b8a1c6ef36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТарифыСДЭКИМ" category="List">
+				<xr:TypeId>dd0f1f2c-9fca-447f-84fc-d988490c492f</xr:TypeId>
+				<xr:ValueId>6e1f8114-de32-42dc-860b-8d7bd5e7c675</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТарифыСДЭКИМ" category="Manager">
+				<xr:TypeId>fbd2efc9-105b-403f-a6f0-b667e5b11da0</xr:TypeId>
+				<xr:ValueId>ad0917ef-409f-4fa4-8691-e00dbf415c76</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТарифыСДЭКИМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2ee96a1d-9bed-4cff-9cdc-0cd28e25a3bc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

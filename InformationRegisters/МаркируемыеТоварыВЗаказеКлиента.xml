@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="d97c8212-4f24-4d1e-baba-e78d10b1d61d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.МаркируемыеТоварыВЗаказеКлиента" category="Record">
+				<xr:TypeId>4008ba1b-d63c-49ff-a14d-b72e82e8ff43</xr:TypeId>
+				<xr:ValueId>4bbf0776-a1cd-4425-9647-8ddd6aa75576</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.МаркируемыеТоварыВЗаказеКлиента" category="Manager">
+				<xr:TypeId>82101bfb-7a66-4762-bc15-6ed18472864b</xr:TypeId>
+				<xr:ValueId>42ddd0ad-22f5-4bb3-b815-a78c646175bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.МаркируемыеТоварыВЗаказеКлиента" category="Selection">
+				<xr:TypeId>9223905f-9783-4e30-966e-ee0f6f49d11e</xr:TypeId>
+				<xr:ValueId>a80619b5-ef75-417e-9e94-a901d369825a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.МаркируемыеТоварыВЗаказеКлиента" category="List">
+				<xr:TypeId>d4a1f58b-cf75-4565-bffc-9932b9f62f5a</xr:TypeId>
+				<xr:ValueId>673e8261-ab59-42f7-b40e-5d44992adbf2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.МаркируемыеТоварыВЗаказеКлиента" category="RecordSet">
+				<xr:TypeId>9a76b46c-6c4f-40b7-bdd2-c42032de92df</xr:TypeId>
+				<xr:ValueId>8eac2b14-4541-4b6d-b6b4-8a7c9116e126</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.МаркируемыеТоварыВЗаказеКлиента" category="RecordKey">
+				<xr:TypeId>d0cce4db-4c3f-47b6-878f-d60567b14d03</xr:TypeId>
+				<xr:ValueId>ecd29f12-1b1e-4302-a4e1-ed0ac455f484</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.МаркируемыеТоварыВЗаказеКлиента" category="RecordManager">
+				<xr:TypeId>09d2bf55-7f89-4127-8a0c-bacb73807ea7</xr:TypeId>
+				<xr:ValueId>a27fa83d-bf18-4d14-93ab-ec6ac881be17</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МаркируемыеТоварыВЗаказеКлиента</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b3cc6d61-7eee-4754-aea9-fd48be19736f</ExtendedConfigurationObject>
+			<DefaultRecordForm/>
+			<DefaultListForm>InformationRegister.МаркируемыеТоварыВЗаказеКлиента.Form.ФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="c631c558-e221-4c56-b404-bade91bc35aa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказКлиента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d4393e37-d611-4bb0-b681-52db67c78910</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="558124d9-5ccf-4b9d-92c7-efc0a8810e25">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5d61729f-19f1-4106-a776-9c8a16df4025</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ee2d7e6c-29af-479f-a3cf-97251a614244">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7560792c-43ce-4edd-99f3-fde1af000159</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4d1d2079-105a-4c83-ba3c-0a6c676b3878">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ШтрихкодУпаковки</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8ac2bd7c-c650-4e0f-ac75-2b23acbf1ea9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтрихкодыУпаковокТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="649f6047-bdd1-4de8-b560-5cf033fc35d8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Серия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>656f7601-b574-407b-976c-cefe52a787bf</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаЗаписи</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

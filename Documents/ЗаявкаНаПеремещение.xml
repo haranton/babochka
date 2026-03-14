@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="0f371e3f-98d0-42f2-b19d-64fbf0c4bc31">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаПеремещение" category="Object">
+				<xr:TypeId>552eca7f-a5ed-4b45-89e8-4cfd61e0243f</xr:TypeId>
+				<xr:ValueId>4c06e4f8-96ec-4315-9050-111ed02e11e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаПеремещение" category="Ref">
+				<xr:TypeId>09651b86-40c3-43b0-aef7-4d29b1767486</xr:TypeId>
+				<xr:ValueId>8804c123-182c-4e45-96e4-1f7c99ddbe85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаПеремещение" category="Selection">
+				<xr:TypeId>dd386398-2904-43d4-9032-a6ff38d4937f</xr:TypeId>
+				<xr:ValueId>f3c924ed-3669-4f1f-bdab-303badc3532f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаПеремещение" category="List">
+				<xr:TypeId>a8f103f7-299e-406d-ab3d-7a53c5a5346c</xr:TypeId>
+				<xr:ValueId>75308c90-95c8-4b85-b6aa-67c922bfe59a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаПеремещение" category="Manager">
+				<xr:TypeId>e9fbb8c9-7480-441e-9164-adcd407fbbbb</xr:TypeId>
+				<xr:ValueId>175e593c-6c13-4663-8908-6191fcca117a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаПеремещение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4c7757be-fbf3-422a-874c-88a38ac83768</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

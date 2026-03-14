@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCharacteristicTypes uuid="477ef6b1-27bb-48b0-9d9e-f9f87fd36ee3">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СтатьиДоходов" category="Object">
+				<xr:TypeId>c449a12b-2eae-40d8-811c-28f505ebd8cf</xr:TypeId>
+				<xr:ValueId>e4cae63c-e1d4-4e24-9bc5-5411fc0977af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СтатьиДоходов" category="Ref">
+				<xr:TypeId>d07dfe37-d654-49c3-84f1-bfb5ce94c0de</xr:TypeId>
+				<xr:ValueId>4d441d50-4959-4b54-8f55-0579cd9f764f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СтатьиДоходов" category="Selection">
+				<xr:TypeId>6c51e2e8-16a5-46ed-960e-6bb2ea3a2058</xr:TypeId>
+				<xr:ValueId>2b64a596-e8fb-4b11-85bf-e86743672ef2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СтатьиДоходов" category="List">
+				<xr:TypeId>5034c8c3-8a7b-4dae-b7ec-5c99c9ff5817</xr:TypeId>
+				<xr:ValueId>97e869c8-6f55-440a-9567-14cd392ff5ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.СтатьиДоходов" category="Characteristic">
+				<xr:TypeId>34db9d18-9293-4031-a9fa-580f167d53a9</xr:TypeId>
+				<xr:ValueId>a5ef4646-cea9-4a2f-89fb-7093fc555cc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СтатьиДоходов" category="Manager">
+				<xr:TypeId>f300e82b-989c-4fb5-9f38-2a5ea83e849a</xr:TypeId>
+				<xr:ValueId>ecec3a25-2fd6-4d12-9696-219d59b078b8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиДоходов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7d5d6311-c003-4592-8a85-fbff7eee27b4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="be09f66d-5e76-4d83-b586-a3f309404b3c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БанковскиеСчетаКонтрагентов" category="Object">
+				<xr:TypeId>6a41a4d8-7abb-44f7-a977-d71e21c2a2d8</xr:TypeId>
+				<xr:ValueId>0691459a-57ec-4d8f-bcf7-ea280ac103f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БанковскиеСчетаКонтрагентов" category="Ref">
+				<xr:TypeId>a5f89bdd-80b8-499a-ad03-f9348185c491</xr:TypeId>
+				<xr:ValueId>d3370248-301a-4c6a-b586-799819397a31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БанковскиеСчетаКонтрагентов" category="Selection">
+				<xr:TypeId>517ce31c-a790-481a-a31a-e128ad307093</xr:TypeId>
+				<xr:ValueId>6991d7cf-013d-49a7-873e-5a850258d056</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БанковскиеСчетаКонтрагентов" category="List">
+				<xr:TypeId>198d830a-b0f4-47de-8489-4f7f1c891d79</xr:TypeId>
+				<xr:ValueId>30a3c0aa-5e31-46a4-a726-eeb9cc169a3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БанковскиеСчетаКонтрагентов" category="Manager">
+				<xr:TypeId>f08f2394-a38e-4462-9bee-d3a56af0b6a7</xr:TypeId>
+				<xr:ValueId>65f74174-0722-4791-931f-4e049deb6f76</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БанковскиеСчетаКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>aee671cc-5f58-44cc-b0d2-7aa0c28afdb0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

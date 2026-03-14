@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="bcbd4fd6-2c39-44d7-8a7d-de2549d2032a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекККМ" category="Object">
+				<xr:TypeId>64a0ecd3-9e73-47d1-96ef-2a3425b5642b</xr:TypeId>
+				<xr:ValueId>7ed43666-e4f9-4cc3-aeda-7aa967dd1b02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекККМ" category="Ref">
+				<xr:TypeId>cbf6ce77-d505-4c2d-ac67-dbb6194d9cbb</xr:TypeId>
+				<xr:ValueId>d841ad5d-8226-4ce6-b10a-9954be414e8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекККМ" category="Selection">
+				<xr:TypeId>e5cd100e-1829-4511-ab08-e03a9b1d5f10</xr:TypeId>
+				<xr:ValueId>8b00e294-8060-40ec-b80a-1ef8290c9c5a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекККМ" category="List">
+				<xr:TypeId>aaf8dabf-0c22-42cb-89bb-dd176181aa53</xr:TypeId>
+				<xr:ValueId>ed47e833-611c-41fe-bbc2-2c716f3be1ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекККМ" category="Manager">
+				<xr:TypeId>9d28c3fa-f39b-4cf6-95b1-85047c105b59</xr:TypeId>
+				<xr:ValueId>16f836b0-5594-475e-a999-b0f10e2e71ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЧекККМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>c285371e-3f47-40b7-ae0f-80022d7c7f9a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="92b23914-c450-4249-804f-e7eb62fa3314">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РучнаяСкидка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3a566db0-6c9f-4b7b-a54b-e96a1e5ed14e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a3f51c59-b840-42f6-b114-71c22196c6e2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РазрешеноРуководством</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9a134729-9003-4407-80a9-274c7c32edc2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="869f725a-0ab2-4dc6-a954-32ec918808b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Партнер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93450aad-697d-4b13-a2bc-aa94cb30ff4d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d84d77ad-74fa-42c3-8cd4-47a20193e6c9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>97a0d5dd-e5b6-4773-b66b-f91e78fe5aa4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="f9c79939-dfdf-4b83-928e-2b58e8a1cb9c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.ПодарочныеСертификаты" category="TabularSection">
+						<xr:TypeId>58a716e6-7fca-4ca2-9c60-97cb498d5f7b</xr:TypeId>
+						<xr:ValueId>79253e8a-409a-4e94-a70c-d7cc5680f0e4</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.ПодарочныеСертификаты" category="TabularSectionRow">
+						<xr:TypeId>cde9537a-6918-4fb3-9979-13f6a2bdaf03</xr:TypeId>
+						<xr:ValueId>b866bb5c-e984-44d5-a5f5-6de07b38acc8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПодарочныеСертификаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>60f81fb1-281a-492e-8c30-b031a15de614</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="0b2cea97-55a9-4c17-856c-b41be9ba888a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМ.ВалютнаяОплата" category="TabularSection">
+						<xr:TypeId>c17714ed-c3ab-4949-80e8-61af4757303b</xr:TypeId>
+						<xr:ValueId>420f3ed2-03ef-4cf8-89e9-6d0dcf8c30d8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМ.ВалютнаяОплата" category="TabularSectionRow">
+						<xr:TypeId>acf6d318-5b1d-4624-85d4-bf2a73887404</xr:TypeId>
+						<xr:ValueId>c3a31e77-763e-4852-b71b-c9940d1495de</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютнаяОплата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>70ac8cf0-348f-41db-9b15-e799d301bc28</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

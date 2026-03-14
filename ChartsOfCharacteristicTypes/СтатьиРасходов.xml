@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCharacteristicTypes uuid="a44e1b9d-bd39-4dc9-8332-21b2eb6c66ef">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СтатьиРасходов" category="Object">
+				<xr:TypeId>bd9d6961-f580-49a9-90e3-c0e7e3ae3c37</xr:TypeId>
+				<xr:ValueId>e8078563-ab02-47f1-b8d0-4e8c5792c7c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СтатьиРасходов" category="Ref">
+				<xr:TypeId>961b14ce-9441-4f44-b755-c68fe11b9a82</xr:TypeId>
+				<xr:ValueId>8bc31bdc-3b15-4493-8c36-2fd4695e01dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СтатьиРасходов" category="Selection">
+				<xr:TypeId>6c338aaf-a520-4b6a-82ba-8de51b0af63b</xr:TypeId>
+				<xr:ValueId>fabe7999-e3c9-42bb-bd61-99e9ae78ed8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СтатьиРасходов" category="List">
+				<xr:TypeId>cbb753d1-16ba-4d44-95e8-3d23b3d1a843</xr:TypeId>
+				<xr:ValueId>156fc026-110e-4395-91cd-ad89ecd8a4eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.СтатьиРасходов" category="Characteristic">
+				<xr:TypeId>a9753189-a17a-465f-9bc7-f6b144eb5e95</xr:TypeId>
+				<xr:ValueId>33266395-f88f-4870-a846-0b86aa11c178</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СтатьиРасходов" category="Manager">
+				<xr:TypeId>4e27f038-db36-4c72-b676-d1c3308a8401</xr:TypeId>
+				<xr:ValueId>d92fad6f-8c07-4d19-9363-e49af957bdca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиРасходов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>21895752-24ac-4d5e-a4e1-d350a6d1d68d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

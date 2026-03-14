@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="62628b25-3d70-4f5b-a312-32fbb08eb583">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыНалоговВзносов" category="Object">
+				<xr:TypeId>dc777f75-67be-4fe0-8988-20695f704f7c</xr:TypeId>
+				<xr:ValueId>74491129-aa82-43dd-a4aa-5c96a8be1ada</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыНалоговВзносов" category="Ref">
+				<xr:TypeId>64f474fd-af95-40ab-be88-cd51ce9262a1</xr:TypeId>
+				<xr:ValueId>fed398ff-1920-414b-b2f7-a501438a9043</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыНалоговВзносов" category="Selection">
+				<xr:TypeId>f6237b4f-f411-4c19-8ecd-4f904f9af814</xr:TypeId>
+				<xr:ValueId>e8a7da00-024c-4121-abf2-a9fc35e9e03b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыНалоговВзносов" category="List">
+				<xr:TypeId>6e79c5e4-da5b-4b60-b54d-64865ac70c9e</xr:TypeId>
+				<xr:ValueId>fd0c64b6-4f2c-4e4d-a941-875927d6ea5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыНалоговВзносов" category="Manager">
+				<xr:TypeId>fc0b6489-2cb5-4a20-8780-03678e449509</xr:TypeId>
+				<xr:ValueId>934acd90-4341-480d-959b-e5a018123cfb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыНалоговВзносов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a8ed748-11f9-4737-88b4-415758030cc3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f80139c3-d0ba-4185-94d9-086a8b386919">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БонусныеПрограммыЛояльности" category="Object">
+				<xr:TypeId>200f8e08-3575-47dc-83f5-9b2d4b63225f</xr:TypeId>
+				<xr:ValueId>3f0fca02-e8a2-478f-9211-a6244fcb4558</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БонусныеПрограммыЛояльности" category="Ref">
+				<xr:TypeId>50fed19d-4b6c-49e5-8a38-52e9d4f902c8</xr:TypeId>
+				<xr:ValueId>1f654e6c-7b9e-4ac3-b79b-773625248c27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БонусныеПрограммыЛояльности" category="Selection">
+				<xr:TypeId>fd5d5585-dc90-4231-a445-f7548ea245d9</xr:TypeId>
+				<xr:ValueId>7a135634-f4e2-4fcd-9fc6-ff96f80c1cd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БонусныеПрограммыЛояльности" category="List">
+				<xr:TypeId>73ff0003-4e29-43df-9c59-375715f56397</xr:TypeId>
+				<xr:ValueId>163eb0ff-0d3a-4ae7-9a24-d6a3c16d03f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БонусныеПрограммыЛояльности" category="Manager">
+				<xr:TypeId>30ca0368-724f-463f-baab-eda75ec801a8</xr:TypeId>
+				<xr:ValueId>5b13c9d9-4c95-4415-a851-ca8c6216ec33</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>БонусныеПрограммыЛояльности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0fcd3f18-c54a-46de-b781-b140c05f0cde</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

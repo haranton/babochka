@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e3d504aa-46a5-4288-9cf2-48fa8bb9a6ce">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСуммГрафикаКредитовИДепозитов" category="Ref">
+				<xr:TypeId>f0970525-7407-4057-a232-8e8d00bb8923</xr:TypeId>
+				<xr:ValueId>5899bc1c-2204-4fc2-b532-93680a3e6618</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСуммГрафикаКредитовИДепозитов" category="Manager">
+				<xr:TypeId>eef8ef08-d584-4b25-bb95-4e51b357e5e2</xr:TypeId>
+				<xr:ValueId>4a883417-a419-441b-9216-4078e2d84a80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСуммГрафикаКредитовИДепозитов" category="List">
+				<xr:TypeId>2b328f5c-d75c-406d-9249-d47558b41c5f</xr:TypeId>
+				<xr:ValueId>67e741bf-90e5-4aa9-a158-2387a62e2061</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСуммГрафикаКредитовИДепозитов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>44bf51d5-dd73-4198-a950-a68006ace82c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

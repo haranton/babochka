@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="8bf279de-a94b-4768-834b-7c5b90041dc6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЛПостРегионы" category="Object">
+				<xr:TypeId>72276e38-85d6-4e6f-aa32-bee6fc70fb70</xr:TypeId>
+				<xr:ValueId>226c9add-0434-4378-8af3-990345ed3fae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЛПостРегионы" category="Ref">
+				<xr:TypeId>94df33f7-c80a-49f8-8a96-002e0c04ad0f</xr:TypeId>
+				<xr:ValueId>e16d32a4-8bf2-41ac-b56d-7679e274d0ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЛПостРегионы" category="Selection">
+				<xr:TypeId>3ae3f48b-3fcd-4cfa-9c4a-55d0507a72ff</xr:TypeId>
+				<xr:ValueId>8a22ecb1-068b-4c1e-980d-1765649e3fec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЛПостРегионы" category="List">
+				<xr:TypeId>8a23d683-6a5d-4b31-829e-97a76a1595b9</xr:TypeId>
+				<xr:ValueId>17851254-8be5-461c-9958-b04e45a589aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЛПостРегионы" category="Manager">
+				<xr:TypeId>3ffc96d7-c354-45fe-af09-a5a2a104b10b</xr:TypeId>
+				<xr:ValueId>a8aa85cc-008b-4d9c-bd31-e43044a1e8e5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЛПостРегионы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d046f429-277c-40d1-9116-e45850d7090c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

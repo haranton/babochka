@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="00afe637-1181-48ff-b28a-1f642326d3b6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыКонтроляОплатыКлиентом" category="Ref">
+				<xr:TypeId>ec64433e-f5eb-4c0b-a642-f175c8a89ab6</xr:TypeId>
+				<xr:ValueId>8022566c-8ac9-4adb-9fb3-f23b9ade1bf5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыКонтроляОплатыКлиентом" category="Manager">
+				<xr:TypeId>b9f07a71-d6b2-4aa0-936d-3e27626d3aac</xr:TypeId>
+				<xr:ValueId>63d1671c-3e24-4f2d-aa91-7423dddd12b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыКонтроляОплатыКлиентом" category="List">
+				<xr:TypeId>5cc49f6f-c7c0-44ed-a173-fc2e2293d51f</xr:TypeId>
+				<xr:ValueId>c70efb56-821b-45cf-8472-fad088b766bb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВариантыКонтроляОплатыКлиентом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>afe1cdf6-e085-4a86-8fd7-bf64e6bd53e8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1e83686e-eb31-4674-b0bf-62872cfcd135">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УпаковочныйЛист" category="Object">
+				<xr:TypeId>de4aaf64-8a96-40b6-ae4d-5b7c8f3d8dfe</xr:TypeId>
+				<xr:ValueId>8bb2c3de-9e9c-4de2-b115-6720700f2c00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УпаковочныйЛист" category="Ref">
+				<xr:TypeId>6be98550-9427-487f-8895-0032b2650e5e</xr:TypeId>
+				<xr:ValueId>e8e7dc5d-c833-4ad0-989b-c424a8e2761d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УпаковочныйЛист" category="Selection">
+				<xr:TypeId>8238fea4-4baa-4d86-9bef-b807ae43bf07</xr:TypeId>
+				<xr:ValueId>c4a76326-9666-491b-a63f-6e2ac7fbd47e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УпаковочныйЛист" category="List">
+				<xr:TypeId>eee23172-cf9c-401b-88e6-6718d6976ee7</xr:TypeId>
+				<xr:ValueId>c03e6ac3-cb23-4f9f-a93b-059a063ef453</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УпаковочныйЛист" category="Manager">
+				<xr:TypeId>d773bc89-ec05-4a23-b92c-461af3c7f89e</xr:TypeId>
+				<xr:ValueId>0c620b70-c876-4f0a-acfb-e9db0358dcf5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УпаковочныйЛист</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0b5dd848-f150-4ea5-a88e-a87ad708a9b9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="51f774d9-1a1a-4513-8e69-903dd4b95474">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Код</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aa53f854-8cb7-49e5-8edc-67da7e8c25f6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

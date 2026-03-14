@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="24707834-284d-44ef-8cf5-456e8d9ddf24">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыЗаказов" category="Ref">
+				<xr:TypeId>762e72c1-504c-4732-9e0e-0841c16bd229</xr:TypeId>
+				<xr:ValueId>dbb5d74e-dffa-4278-a81c-15884eaefced</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыЗаказов" category="Manager">
+				<xr:TypeId>80177761-71d1-4843-bb11-87d8e897c9e3</xr:TypeId>
+				<xr:ValueId>0b35384c-74dd-4344-ae47-df3f3eef3e71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыЗаказов" category="List">
+				<xr:TypeId>35c09e97-2b79-4af3-b16c-4a36a409fd7d</xr:TypeId>
+				<xr:ValueId>3fd10b8a-9c66-49d0-83aa-4458b436a968</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыЗаказов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a030678a-f8cb-4c71-b742-901d2d4889b8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0a79a68e-aa41-4b8d-99a6-b0464340c008">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МТМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8c8a3b23-72f6-4d28-931e-8b52a6f4a9c0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d9d6ec02-3c6b-41da-828d-8cc7217a13b3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b1a6fbda-f123-45f9-bec1-7d2599abce37</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f3b5b869-e621-42c5-a675-0afbf49646a4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>383391a5-ef93-47bd-84e3-5f706ac38c19</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9b1f8d0b-b974-4797-af64-c673c9145f05">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Другое</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6be35951-dc9f-4bc3-b153-4c32a0781e5b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0d208ef7-3d38-4af4-8bbc-db4d1737eded">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Постоплата</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dbe7e095-aa1f-4ea7-98f3-5bbb4c0ac22c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="091bc98d-115f-4d72-b662-805da5e8886a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>KUPIVIP</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fe8005e5-cf2f-4c89-b1d4-2ab9dc458c38</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

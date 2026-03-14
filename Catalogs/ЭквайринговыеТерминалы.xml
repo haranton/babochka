@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="d947d6ba-747b-4d4b-b9de-355f76c67fa7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭквайринговыеТерминалы" category="Object">
+				<xr:TypeId>195020f7-b3b5-42aa-8d33-5737e23ee015</xr:TypeId>
+				<xr:ValueId>c352875c-336a-4c04-ab97-9b3d2e361875</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭквайринговыеТерминалы" category="Ref">
+				<xr:TypeId>ad90b442-849c-4db4-a3ed-fd5ddffc8a69</xr:TypeId>
+				<xr:ValueId>da3e0b29-5f9e-435e-95ce-a974fa1d7afc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭквайринговыеТерминалы" category="Selection">
+				<xr:TypeId>0666e2c1-fd5c-4a87-af29-b48a21584d88</xr:TypeId>
+				<xr:ValueId>97199166-b016-4a8a-bee5-e9991fd81fb8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭквайринговыеТерминалы" category="List">
+				<xr:TypeId>4e22ca19-56dd-4efb-b3ba-62fd1b99f839</xr:TypeId>
+				<xr:ValueId>2a0b984d-d072-4814-81c8-e64e81d224aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭквайринговыеТерминалы" category="Manager">
+				<xr:TypeId>3383f82a-817a-49fc-a0b3-5616631d326e</xr:TypeId>
+				<xr:ValueId>fd0553b8-8b11-4c5e-bc7c-e0a20652d1e0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭквайринговыеТерминалы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f415cd97-8647-4f10-a588-50e3e159bac3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="166d9e98-8bc9-467e-baf4-6fdf6616196f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыКомпенсацииВозвратовТоваров" category="Ref">
+				<xr:TypeId>9fe76644-af5d-4d7e-9eac-ee25efdcf86d</xr:TypeId>
+				<xr:ValueId>9cfd0283-43ea-4e6b-b214-0fe9f770ab99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыКомпенсацииВозвратовТоваров" category="Manager">
+				<xr:TypeId>0a90de8c-f043-454e-ad55-8d52826395fe</xr:TypeId>
+				<xr:ValueId>32eebbbf-a66e-4f3f-9a90-ae56c58505a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыКомпенсацииВозвратовТоваров" category="List">
+				<xr:TypeId>04913cbf-74eb-4ef9-902c-0bf535a8a4f2</xr:TypeId>
+				<xr:ValueId>3613dd14-f401-40b0-b2b8-ee4c1441164c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыКомпенсацииВозвратовТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>6c806002-279d-4494-b25f-28fe494fd1c3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

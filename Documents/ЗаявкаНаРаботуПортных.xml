@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="4c468642-01d3-41fb-816e-bc1da3a3bec0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаявкаНаРаботуПортных" category="Object">
+				<xr:TypeId>ee336100-8b9e-41c6-bdc8-a17b4c348665</xr:TypeId>
+				<xr:ValueId>f8905fb8-ec9b-4591-9d5f-0ffc821df2e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаявкаНаРаботуПортных" category="Ref">
+				<xr:TypeId>2181b7b5-c5c5-4f65-8e49-07acd9eee36c</xr:TypeId>
+				<xr:ValueId>531071dd-643b-41c7-ad55-395cd6d98a49</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаявкаНаРаботуПортных" category="Selection">
+				<xr:TypeId>ceb21909-5dc7-425e-838f-30822b26ab2b</xr:TypeId>
+				<xr:ValueId>0b792ffd-ec30-41b2-a6bc-72a3dc50da79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаявкаНаРаботуПортных" category="List">
+				<xr:TypeId>29dbf6aa-07d2-427f-9fd9-4e71179cc7e5</xr:TypeId>
+				<xr:ValueId>c7e316ec-a8e3-439d-a15a-ff487d9b6cf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаявкаНаРаботуПортных" category="Manager">
+				<xr:TypeId>e64b0935-637a-4486-8cfb-c4d2c97642f7</xr:TypeId>
+				<xr:ValueId>13dda481-935a-4e7e-9b60-f343cbb5d2b4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаявкаНаРаботуПортных</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1162edb0-1af2-4099-b361-7dd54e91f3a6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

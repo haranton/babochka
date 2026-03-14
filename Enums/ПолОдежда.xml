@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="8716e5f0-2f41-460c-9eb5-594819689e80">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПолОдежда" category="Ref">
+				<xr:TypeId>62f91889-f252-46ce-b103-1822ad4bad31</xr:TypeId>
+				<xr:ValueId>09e2206f-3971-4e81-b420-1396bf7891bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПолОдежда" category="Manager">
+				<xr:TypeId>94da6b27-4dfc-4a94-b8be-d9016c9c8c8c</xr:TypeId>
+				<xr:ValueId>dc663837-c64e-46a5-a654-9f37747260a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПолОдежда" category="List">
+				<xr:TypeId>5dcc4221-bb70-4d83-bbab-215db174bf5d</xr:TypeId>
+				<xr:ValueId>6c858b3b-e32d-4708-a420-5e0dcf71051e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПолОдежда</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>45cfbf3c-7827-4362-aae3-e5fba0271df6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

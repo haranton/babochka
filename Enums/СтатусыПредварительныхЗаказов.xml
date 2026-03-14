@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="c7a1db09-7ea9-4036-ab49-db01951f77ea">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыПредварительныхЗаказов" category="Ref">
+				<xr:TypeId>559300a1-d93d-4808-a33b-282dc1b44b9e</xr:TypeId>
+				<xr:ValueId>5bbe543d-3590-4d98-90ab-a5132b7aa178</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыПредварительныхЗаказов" category="Manager">
+				<xr:TypeId>946e3b35-fc11-4ad0-8a95-0f305d81b15f</xr:TypeId>
+				<xr:ValueId>7c1e1495-40de-4717-8826-e6875f41e892</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыПредварительныхЗаказов" category="List">
+				<xr:TypeId>ffb710ad-62db-419d-9961-10e01e859d73</xr:TypeId>
+				<xr:ValueId>ba3b1216-6233-4f7d-9eed-ad655ac37ecb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыПредварительныхЗаказов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1bb383c7-7f09-4231-a982-ef0cd77b4119</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

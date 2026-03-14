@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="a930bcd0-067a-475b-b506-1ad795cefd7c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыДоговоровКонтрагентов" category="Ref">
+				<xr:TypeId>8660e6fb-c9f1-4e73-b46a-90cbfcfb9d51</xr:TypeId>
+				<xr:ValueId>eea257ee-1312-480e-b107-37c321afb52f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыДоговоровКонтрагентов" category="Manager">
+				<xr:TypeId>597fb98f-2f8e-469f-b8dc-059b3b858faa</xr:TypeId>
+				<xr:ValueId>bdb243fe-340e-4f3b-971a-35bcd1e577ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыДоговоровКонтрагентов" category="List">
+				<xr:TypeId>3d0c97db-e38b-476c-bd6f-e7ec5dc4665c</xr:TypeId>
+				<xr:ValueId>77b65c66-2257-4ac0-9ccb-63f2714a3ec5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДоговоровКонтрагентов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a97bc7cd-71bc-4a54-9059-2a25f48b25d2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e392780e-9b16-4ee4-bde3-7dfc18468afd">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Действует</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>981b86f1-d7d8-466e-a92f-27fc8d2dbd51</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

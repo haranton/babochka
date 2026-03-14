@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="2325ba9b-00d4-4102-8fb7-8aecc9db903d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкидкиНаценки" category="Object">
+				<xr:TypeId>f6074b84-8df1-4968-a8ba-ddc908ffb70f</xr:TypeId>
+				<xr:ValueId>c928a7e5-7119-4e71-b241-297b228b807d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкидкиНаценки" category="Ref">
+				<xr:TypeId>3d2fc1d6-30c8-4009-a3bc-8efae3ca7ea1</xr:TypeId>
+				<xr:ValueId>3beb8f5d-7b68-47e6-806f-059a7f9eac63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкидкиНаценки" category="Selection">
+				<xr:TypeId>e6584590-41b9-4513-855d-82739d204417</xr:TypeId>
+				<xr:ValueId>f8caddb3-cb15-4b67-a261-fb79e4d082fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкидкиНаценки" category="List">
+				<xr:TypeId>debaa83f-9f71-468f-b002-7ccd67392494</xr:TypeId>
+				<xr:ValueId>08eb8307-b04b-4b83-b03e-c64b69772675</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкидкиНаценки" category="Manager">
+				<xr:TypeId>79753eaf-ffe3-452f-afc4-44543c311dc4</xr:TypeId>
+				<xr:ValueId>e28a781a-e339-4f95-9cd1-905cc3b63cd4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкидкиНаценки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>25600f00-5a0f-4302-95ea-d20a98b8212d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

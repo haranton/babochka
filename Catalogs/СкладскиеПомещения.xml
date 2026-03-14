@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="71b2584c-4524-41e1-a06a-322951349cb7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкладскиеПомещения" category="Object">
+				<xr:TypeId>25604046-2bd9-465d-97e5-b1deb9b2dcc9</xr:TypeId>
+				<xr:ValueId>c2315eed-3dc8-4122-aa0c-4f8a324692e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкладскиеПомещения" category="Ref">
+				<xr:TypeId>bd6faf19-4fc1-47bf-a933-b27eefce38fc</xr:TypeId>
+				<xr:ValueId>49bdbfec-c3b8-4b9c-8413-639651666ca2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкладскиеПомещения" category="Selection">
+				<xr:TypeId>44c9a506-dbed-4318-8614-d5e8fc75f03f</xr:TypeId>
+				<xr:ValueId>49cc3aff-9393-4772-a82a-f7e43c915899</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкладскиеПомещения" category="List">
+				<xr:TypeId>6c69db3a-b92c-4ab4-b293-f10e216a13f3</xr:TypeId>
+				<xr:ValueId>833ac5eb-05ac-4de9-a484-481b21c59607</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкладскиеПомещения" category="Manager">
+				<xr:TypeId>05b1d3b7-e99b-48e8-ae67-7757104d49ad</xr:TypeId>
+				<xr:ValueId>258a3fa2-6c0d-4da1-b0c5-fee99f9720a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкладскиеПомещения</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d185d3dc-369f-4bdf-962e-8954f89dadce</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

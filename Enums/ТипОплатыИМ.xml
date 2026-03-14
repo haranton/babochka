@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="1f8aa2f0-035c-4e1c-8fde-10b1e5bf9da4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипОплатыИМ" category="Ref">
+				<xr:TypeId>bfbc9500-a506-49ae-8930-e5a4bc6adb13</xr:TypeId>
+				<xr:ValueId>96929b43-638c-4dec-af6f-5c996c97bbca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипОплатыИМ" category="Manager">
+				<xr:TypeId>d4c5ee10-5329-438b-a90d-052e6ce352f2</xr:TypeId>
+				<xr:ValueId>b78af838-cb84-4914-ae76-b9fb67eb4878</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипОплатыИМ" category="List">
+				<xr:TypeId>d314eb84-c5b2-4e83-8c9e-218bfdd55111</xr:TypeId>
+				<xr:ValueId>c2c0572c-708b-4f1c-863e-83e946a8dfbd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипОплатыИМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4135cccb-928d-4642-821b-3e92e01a8154</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="68e19d4b-77b2-433c-8000-feb4aee749be">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Счет</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5ac85261-3759-45cb-bc51-1bf3bbe2a966</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a3087624-d411-4509-aa77-b3d6ae70cd90">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Онлайн</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7d93a59a-a97e-44c9-ad65-f286aa028537</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="58aae1c0-9126-4207-95db-62cafa12d6b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пони</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ba31de02-adb8-4814-97e7-11ab9f268432</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e3a6d091-5dca-40e9-9666-da85fe870d89">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОнлайнPayPal</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ae4b2879-a7a8-46d4-99e4-e29f8dd16705</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3309c533-e130-4aa3-bbda-97d5d982277c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СДЭК</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9308383e-7fd0-4167-bda1-1b6066fba6c6</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8987a166-0e46-4daa-a1e1-5971024c39cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЛабиринтПост</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d95a72ea-7c12-4d39-9eac-9d4c355c60f4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6d480ff3-e221-4c90-816f-6bc43500e17f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Яндекс</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d34e797-6a02-4de1-a406-518684ef59fb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b6e29d9c-1498-491b-a9ac-ff9e0aedf0e6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Dalli</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>08c26057-1f98-4df0-acc6-12462b54f892</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="24ac8603-96a3-4ec8-9e12-f1a7187abf93">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ARSexpress</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>05aa84cf-e9d9-4623-a07d-d2d9a5e365e8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0c2139c2-5b75-4321-bd65-c9777fc33986">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>DPD</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>450975bc-fa09-4b6f-9452-e4aceac39e71</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

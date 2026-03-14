@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="2ab6dc4b-b249-484b-b18d-6e63a6f42b00">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьКартыЛояльности" category="Manager">
+				<xr:TypeId>7fe82618-890d-4fae-88e5-6c67c7f1efda</xr:TypeId>
+				<xr:ValueId>21ed1145-84ed-4a21-a77a-39c9d483bc75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьКартыЛояльности" category="ValueManager">
+				<xr:TypeId>ae09e7b9-5dd2-4976-93ae-08b8ef5a8c8e</xr:TypeId>
+				<xr:ValueId>7ddbf040-fce6-4909-abb9-b4cd55b51416</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьКартыЛояльности" category="ValueKey">
+				<xr:TypeId>838be441-ea40-4c31-8b88-669906b832b3</xr:TypeId>
+				<xr:ValueId>7ab669d8-ed8d-422d-9875-5a12b096ab33</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьКартыЛояльности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bf99c4e4-a193-443f-8729-37d359f40f4d</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

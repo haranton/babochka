@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c5c2b640-0968-442e-ada9-ff48359c3770">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОЗачисленииВалюты" category="Object">
+				<xr:TypeId>6c5609ca-8433-4dad-b731-d08c4ca1490e</xr:TypeId>
+				<xr:ValueId>f8780c71-6431-41b8-8aa9-868cb8732f7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОЗачисленииВалюты" category="Ref">
+				<xr:TypeId>e632b169-527f-42e8-bf1e-62fbe21a6261</xr:TypeId>
+				<xr:ValueId>3ee0a4c7-72ff-4872-af45-91d666a0b2fc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОЗачисленииВалюты" category="Selection">
+				<xr:TypeId>54009497-ab4b-448c-af09-5b4641c5f7fc</xr:TypeId>
+				<xr:ValueId>5a2304e4-ad15-4c85-9e84-2d2f09603496</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОЗачисленииВалюты" category="List">
+				<xr:TypeId>270c9a07-8e1b-47e4-92c0-e40257a169ba</xr:TypeId>
+				<xr:ValueId>8749b298-f42e-42b4-8d5c-566a8ae7b7ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОЗачисленииВалюты" category="Manager">
+				<xr:TypeId>9450c0a9-b390-4227-b592-7ca6b1eee061</xr:TypeId>
+				<xr:ValueId>c853d83b-cf1e-4480-91ec-0e681e49e9be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УведомлениеОЗачисленииВалюты</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f6992ec4-2126-400c-be6f-4d18b90771ce</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
