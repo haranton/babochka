@@ -9,7 +9,7 @@ Branch: `refactor/bsl-wave1-errors-critical-warnings`
 - [x] Stage 3 - CommonModules
 - [x] Stage 4 - DataProcessors + InformationRegisters + residuals
 - [x] Stage 5 - Critical Warning Sweep
-- [ ] Stage 6 - Final Stabilization
+- [x] Stage 6 - Final Stabilization
 
 ## Metrics
 - Baseline report: `artifacts/refactor-wave1/bsl-json.json`
@@ -21,6 +21,7 @@ Branch: `refactor/bsl-wave1-errors-critical-warnings`
 - Stage 2: a738892
 - Stage 3: e5c9740
 - Stage 4: bb79390
-- Stage 5: pending
+- Stage 5: f20985a
+- Stage 6: pending
 
 
