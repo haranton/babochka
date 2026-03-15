@@ -1,0 +1,78 @@
+name: BSL CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
+jobs:
+  bsl-analysis:
+    name: Static BSL Analysis
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Prepare report directory
+        run: mkdir -p reports/bsl
+
+      - name: Run bsl-language-server analysis
+        run: >
+          java -jar tools/bsl-language-server.jar
+          analyze
+          -s .
+          -o reports/bsl
+          -r json
+          -r sarif
+          -r junit
+          -q
+
+      - name: Upload JSON report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bsl-json-report
+          path: reports/bsl/bsl-json.json
+          if-no-files-found: error
+
+      - name: Upload SARIF report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bsl-sarif-report
+          path: reports/bsl/bsl-ls.sarif
+          if-no-files-found: error
+
+      - name: Upload JUnit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bsl-junit-report
+          path: reports/bsl/bsl-junit.xml
+          if-no-files-found: error
+
+      - name: Publish SARIF to GitHub Code Scanning
+        if: always()
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: reports/bsl/bsl-ls.sarif
+          category: bsl-language-server
+
+      - name: CI behavior note
+        if: always()
+        run: |
+          echo "Workflow publishes BSL reports and Code Scanning results."
+          echo "Current v1 behavior is non-blocking on diagnostics and fails only on technical workflow errors."
