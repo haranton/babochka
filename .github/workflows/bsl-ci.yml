@@ -15,6 +15,9 @@ jobs:
   bsl-analysis:
     name: Static BSL Analysis
     runs-on: ubuntu-latest
+    env:
+      BSL_LS_VERSION: 0.28.5
+      BSL_LS_JAR: tools/bsl-language-server.jar
 
     steps:
       - name: Checkout repository
@@ -29,9 +32,16 @@ jobs:
       - name: Prepare report directory
         run: mkdir -p reports/bsl
 
+      - name: Download bsl-language-server
+        run: |
+          mkdir -p tools
+          curl -fsSL \
+            "https://github.com/1c-syntax/bsl-language-server/releases/download/v${BSL_LS_VERSION}/bsl-language-server-${BSL_LS_VERSION}-exec.jar" \
+            --output "${BSL_LS_JAR}"
+
       - name: Run bsl-language-server analysis
         run: >
-          java -jar tools/bsl-language-server.jar
+          java -jar "${BSL_LS_JAR}"
           analyze
           -s .
           -o reports/bsl
